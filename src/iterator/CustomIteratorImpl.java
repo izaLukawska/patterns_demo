@@ -4,7 +4,7 @@ import java.util.List;
 
 public class CustomIteratorImpl implements CustomIterator<User>{
 
-    private List<User> users;
+    private final List<User> users;
 
     private int currentIndex = 0;
 
