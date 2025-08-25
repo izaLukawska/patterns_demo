@@ -8,11 +8,11 @@ public class NikeFactory implements ClothesFactory {
 
     @Override
     public TshirtFactory getTshirt() {
-        return null;
+        return new NikeTshirt();
     }
 
     @Override
     public ShoesFactory getShoes() {
-        return null;
+        return new NikeShoes();
     }
 }
